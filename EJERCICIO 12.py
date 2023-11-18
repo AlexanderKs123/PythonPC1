@@ -1,11 +1,11 @@
-# Solicitar al usuario el nombre del archivo
+# En esta parte solicitamos al usuario el nombre del archivo
 nombre_archivo = input("Ingrese el nombre del archivo: ")
 
-# Obtener el nombre del archivo y la extensión utilizando métodos de cadena
+# En esta parte obtenemos el nombre del archivo y la extensión utilizando métodos de cadena
 nombre, extension = nombre_archivo.rsplit('.', 1)
 nombre = nombre.lower()  # Convertir a minúsculas para manejar sin importar mayúsculas/minúsculas
 
-# Definir un diccionario de tipos MIME
+# En esta parte definimos un diccionario de tipos MIME-Aumentamos algunos de diferentes tipos de extension
 tipos_mime = {
     'gif': 'image/gif',
     'jpg': 'image/jpeg',
