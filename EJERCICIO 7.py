@@ -10,7 +10,7 @@ print("3. Imprime la multiplicación de los dos números")
 
 opcion = input("Ingresamos el número de la opción deseada (1, 2, o 3): ")
 
-# Realizar la operación correspondiente según la opción seleccionada
+# Realizamos la operación correspondiente según la opción seleccionada
 if opcion == '1':
     resultado = numero_1 + numero_2
     print(f"La suma de {numero_1} y {numero_2} es: {resultado}")
