@@ -1,7 +1,7 @@
 
 lista_original = [1, 1, 2, 3, 4, 4, 5, 1]
 
-# En esta parte convertimos la lista a un conjunto para eliminar duplicados y luego volver a convertir a lista
+# En esta parte convertimos la lista a un conjunto para eliminar duplicados y luego volver a convertir  lista
 lista_procesada = list(set(lista_original))
 
 # En esta parte se muestra el resultado
